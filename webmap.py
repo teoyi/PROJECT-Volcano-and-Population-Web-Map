@@ -86,9 +86,7 @@ def addpop():
     map.add_child(feature_group)
 
 
-
-
-
+addpop()
 addstatus(vc, colorlst[0])
 addstatus(his, colorlst[1])
 addstatus(tep, colorlst[2])
@@ -97,7 +95,7 @@ addstatus(den, colorlst[4])
 addstatus(hol, colorlst[5])
 addstatus(rc, colorlst[6])
 addstatus(ant, colorlst[7])
-addpop()
+
 
 map.add_child(folium.LayerControl())
 
